@@ -10,11 +10,12 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
+        <li>Nest.js</li>
+        <li>MongoDB</li>
+        <li>Vue</li>
+        <li>Nuxt</li>
         <li>React</li>
+        <li>Next</li>
       </ul>
     ),
   },
@@ -23,18 +24,11 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>
+          Master's degree in electrical engineering (Wireless Communications
+          Systems)
+        </li>
+        <li>Bachelor's degree in electrical engineering</li>
       </ul>
     ),
   },
@@ -57,12 +51,13 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            Software engineer passionate about technology, system architecture,
+            and development best practices. Experienced in planning and
+            implementing scalable, secure, and high-performance e-commerce – ERP
+            integrations, applying principles such as Clean Code, SOLID, and
+            Clean Architecture. Works with a modern and versatile stack covering
+            backend, frontend, infrastructure, and automation, while actively
+            contributing to agile and collaborative environments.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -70,7 +65,7 @@ const AboutSection = () => {
               active={tab === "skills"}
             >
               {" "}
-              Skills{" "}
+              Some Skills{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
@@ -78,13 +73,6 @@ const AboutSection = () => {
             >
               {" "}
               Education{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              {" "}
-              Certifications{" "}
             </TabButton>
           </div>
           <div className="mt-8">
