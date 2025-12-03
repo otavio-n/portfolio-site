@@ -25,7 +25,7 @@ const HeroSection = () => {
                 1000,
                 "a Backend Engineer",
                 1000,
-                "a Fullstack Developer",
+                "and a Fullstack Developer",
                 1000,
                 "Hire me, please",
                 1000,
