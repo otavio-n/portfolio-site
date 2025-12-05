@@ -47,17 +47,15 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/pc-port.webp" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             Software engineer passionate about technology, system architecture,
-            and development best practices. Experienced in planning and
-            implementing scalable, secure, and high-performance e-commerce – ERP
-            integrations, applying principles such as Clean Code, SOLID, and
-            Clean Architecture. Works with a modern and versatile stack covering
-            backend, frontend, infrastructure, and automation, while actively
-            contributing to agile and collaborative environments.
+            and development best practices. Has <b>four</b> years of
+            professional experience in planning and implementing scalable,
+            secure, and high-performance e-commerce – ERP integrations, applying
+            principles such as Clean Code, SOLID, and Clean Architecture.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
