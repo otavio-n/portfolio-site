@@ -25,10 +25,10 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>
-          Master's degree in electrical engineering (Wireless Communications
+          Master&apos;s degree in electrical engineering (Wireless Communications
           Systems)
         </li>
-        <li>Bachelor's degree in electrical engineering</li>
+        <li>Bachelor&apos;s degree in electrical engineering</li>
       </ul>
     ),
   },
